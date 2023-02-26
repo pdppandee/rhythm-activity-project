@@ -1,0 +1,97 @@
+
+// @font-face {
+//     font-family: 'MainFont';
+//     src: url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+//   }
+  
+//   @font-face {
+//     font-family: 'BoldFont';
+//     src: url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+//   }
+  
+//   // body {
+//   //   font-family: MainFont;
+//   // }
+  
+//   .v-application {
+//     &h1,
+//     h2,
+//     h3,
+//     h4,
+//     h5,
+//     .display-1,
+//     .display-2,
+//     .display-3,
+//     .display-4 {
+//       font-family: BoldFont !important;
+//     }
+//   }
+  
+//   .bold {
+//     font-family: BoldFont !important;
+//   }
+  
+//   .clickable {
+//     cursor: pointer;
+//   }
+  
+//   .headline,
+//   .title,
+//   .subheading,
+//   .body-1,
+//   .body-2,
+//   .caption,
+//   .light {
+//     font-family: MainFont !important;
+//   }
+  
+//   .material-icons {
+//     font-family: 'Material Icons' !important;
+//   }
+  
+//   .v-btn__content,
+//   .v-list__tile__title,
+//   .v-alert {
+//     font-size: 18px;
+//   }
+  
+//   .container {
+//     padding: 16px 32px;
+//   }
+  
+//   .center {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+  
+//   // .v-toolbar--fixed {
+//   //   z-index: 10;
+//   // }
+  
+//   .v-alert-error {
+//     z-index: 1000;
+//     position: fixed;
+//     width: 100vw;
+//   }
+  
+//   .v-input--selection-controls {
+//     padding: 0;
+//   }
+  
+//   .v-input__slot {
+//     margin-bottom: 0px !important;
+//   }
+  
+//   .text-eclippse {
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//   }
+  
+//   .thumbnail {
+//     width: 100px;
+//     min-width: 100px;
+//     height: 87.5px;
+//     border-radius: 6px;
+//     object-fit: cover;
+//   }

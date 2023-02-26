@@ -1,0 +1,30 @@
+Server sub --> $aws/things/smartangklung/update
+Server pub --> $aws/things/smartangklung/command/device*   [1-8]
+
+1. device จะส่ง message ไปหา server ตลอดเวลาเพื่อให้รู้ว่าอุปกรณ์กำลัง online อยู่
+Device --> Server
+{"header": "is_online", "id": "device*", "bat_voltage": "4.16", "type": "shaker"}
+{"header": "is_online", "id": "device*", "bat_voltage": "4.19", "type": "detector"}
+
+2. ใช้สำหรับสั่งงานที่ตัวอุปกรณ์
+Server --> Device
+{"header": "device_active", "timestamp": "1619946358.68573", "duration": 3.5}
+เมื่ออุปกรณ์แต่ละตัวได้รับคำสั่งแล้ว จะส่ง message ไปบอก server เพื่อยืนยันคำสั่ง
+Shaker --> Server
+{"header": "device_active", "id": "device1", "timestamp": "1619948061.792019", "type": "shaker"}
+Detector --> Server
+{"header": "device_active", "id": "device1", "timestamp": "1619948061.792019", "type": "detector"}
+
+เมื่อ dectector ตรวจพบว่าผู้ใช้งานเขย่า จะส่ง message นี้ไปบอก server
+Detector --> Server
+{"header": "is_active", "id": "device1", "timestamp": "1619948210.3369951", "type": "detector"}
+∂
+3. ping
+Server --> Device
+{"header": "ping", "timestamp": "1619946358.68573"}
+Shaker --> Server
+{"header": "ping", "id": "device1", "rssi": "-26", "timestamp": "1619949105.8806028", "type": "shaker"}
+Detector --> Server
+{"header": "ping", "id": "device1", "rssi": "-12", "timestamp": "1619949105.8806028", "type": "detector"}
+
+1621655898529

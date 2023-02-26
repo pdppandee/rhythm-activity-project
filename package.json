@@ -1,0 +1,63 @@
+{
+  "name": "smart-angklung-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^1.0.7",
+    "@tonejs/midi": "^2.0.27",
+    "aws-amplify": "^4.3.35",
+    "compressorjs": "^1.0.7",
+    "core-js": "^3.6.5",
+    "firebase": "^8.3.1",
+    "json2csv": "^5.0.6",
+    "midi-player-js": "^2.0.13",
+    "music-metadata-browser": "^2.2.6",
+    "soundfont-player": "^0.12.0",
+    "tone": "^14.7.77",
+    "uuidv4": "^6.2.7",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.6.2",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "file-loader": "^6.2.0",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

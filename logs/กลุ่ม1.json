@@ -1,0 +1,1811 @@
+[
+  {
+    "stats": [
+      {
+        "deviceId": "device1",
+        "hitNoteCount": 3,
+        "avarageDelay": 886.6666666666666,
+        "score": 60,
+        "allNoteCount": 5
+      },
+      {
+        "allNoteCount": 24,
+        "deviceId": "device6",
+        "score": 83.33333333333334,
+        "avarageDelay": 676.05,
+        "hitNoteCount": 20
+      },
+      {
+        "hitNoteCount": 17,
+        "avarageDelay": 749.3529411764706,
+        "deviceId": "device7",
+        "allNoteCount": 24,
+        "score": 70.83333333333334
+      },
+      {
+        "score": 83.33333333333334,
+        "deviceId": "device2",
+        "allNoteCount": 24,
+        "hitNoteCount": 20,
+        "avarageDelay": 938.15
+      },
+      {
+        "hitNoteCount": 15,
+        "deviceId": "device5",
+        "allNoteCount": 24,
+        "score": 62.5,
+        "avarageDelay": 1182.4666666666667
+      },
+      {
+        "deviceId": "device4",
+        "allNoteCount": 10,
+        "hitNoteCount": 2,
+        "avarageDelay": 915,
+        "score": 20
+      },
+      {
+        "allNoteCount": 2,
+        "score": 0,
+        "deviceId": "device3",
+        "hitNoteCount": 0,
+        "avarageDelay": null
+      },
+      {
+        "allNoteCount": 4,
+        "avarageDelay": null,
+        "score": 0,
+        "hitNoteCount": 0,
+        "deviceId": "device8"
+      }
+    ],
+    "players": [
+      {
+        "devices": ["device1"],
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 886.6666666666666,
+        "accuaracy": 60,
+        "score": "600"
+      },
+      {
+        "devices": ["device3"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 0,
+        "accuaracy": 0,
+        "score": "0"
+      },
+      {
+        "devices": ["device5"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 1182.4666666666667,
+        "accuaracy": 62.5,
+        "score": "625"
+      },
+      {
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "devices": ["device8"],
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 0,
+        "accuaracy": 0,
+        "score": "0"
+      },
+      {
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "devices": ["device6"],
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 676.05,
+        "accuaracy": 83.33333333333334,
+        "score": "833"
+      },
+      {
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "devices": ["device2"],
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 938.15,
+        "accuaracy": 83.33333333333334,
+        "score": "833"
+      }
+    ],
+    "createdAt": { "seconds": 1628738880, "nanoseconds": 924000000 },
+    "id": "5c560a4d-9786-44a1-a029-7b40c15655d7",
+    "songId": "b769c7b0-8ef8-41c8-b3ba-b0459988bde6",
+    "songName": "หนุ่มนารอนาง",
+    "bandScore": "482"
+  },
+  {
+    "players": [
+      {
+        "devices": ["device1"],
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 891.95,
+        "accuaracy": 95.23809523809523,
+        "score": "952"
+      },
+      {
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "devices": ["device3"],
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 639.6896551724138,
+        "accuaracy": 93.54838709677419,
+        "score": "935"
+      },
+      {
+        "devices": ["device5"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 694.9,
+        "accuaracy": 95.23809523809523,
+        "score": "952"
+      },
+      {
+        "devices": ["device8"],
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 0,
+        "accuaracy": 0,
+        "score": "0"
+      },
+      {
+        "devices": ["device6"],
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 924.6666666666666,
+        "accuaracy": 88.23529411764706,
+        "score": "882"
+      },
+      {
+        "devices": ["device2"],
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 636,
+        "accuaracy": 100,
+        "score": "1000"
+      }
+    ],
+    "songId": "f7cf2225-30c8-4362-96eb-49a00654c22a",
+    "id": "d2946e8b-573f-4ef9-a5e5-79b7a588d2ab",
+    "createdAt": { "seconds": 1628738195, "nanoseconds": 103000000 },
+    "stats": [
+      {
+        "hitNoteCount": 20,
+        "score": 95.23809523809523,
+        "avarageDelay": 891.95,
+        "deviceId": "device1",
+        "allNoteCount": 21
+      },
+      {
+        "score": 93.54838709677419,
+        "allNoteCount": 31,
+        "avarageDelay": 639.6896551724138,
+        "hitNoteCount": 29,
+        "deviceId": "device3"
+      },
+      {
+        "hitNoteCount": 20,
+        "score": 95.23809523809523,
+        "allNoteCount": 21,
+        "deviceId": "device5",
+        "avarageDelay": 694.9
+      },
+      {
+        "allNoteCount": 20,
+        "score": 0,
+        "hitNoteCount": 0,
+        "avarageDelay": null,
+        "deviceId": "device8"
+      },
+      {
+        "avarageDelay": 924.6666666666666,
+        "deviceId": "device6",
+        "score": 88.23529411764706,
+        "hitNoteCount": 15,
+        "allNoteCount": 17
+      },
+      {
+        "allNoteCount": 4,
+        "avarageDelay": 636,
+        "hitNoteCount": 4,
+        "score": 100,
+        "deviceId": "device2"
+      }
+    ],
+    "songName": "หนุ่มนาข้าวสาวนาเกลือ",
+    "bandScore": "787"
+  },
+  {
+    "stats": [
+      {
+        "score": 96.29629629629629,
+        "deviceId": "device1",
+        "avarageDelay": 940.2692307692307,
+        "allNoteCount": 27,
+        "hitNoteCount": 26
+      },
+      {
+        "hitNoteCount": 47,
+        "score": 85.45454545454545,
+        "deviceId": "device3",
+        "avarageDelay": 790.2765957446809,
+        "allNoteCount": 55
+      },
+      {
+        "allNoteCount": 26,
+        "deviceId": "device8",
+        "score": 0,
+        "avarageDelay": null,
+        "hitNoteCount": 0
+      },
+      {
+        "hitNoteCount": 25,
+        "deviceId": "device2",
+        "allNoteCount": 27,
+        "score": 92.5925925925926,
+        "avarageDelay": 748.96
+      },
+      {
+        "deviceId": "device4",
+        "avarageDelay": 1145.9333333333334,
+        "hitNoteCount": 15,
+        "score": 93.75,
+        "allNoteCount": 16
+      },
+      {
+        "allNoteCount": 24,
+        "score": 91.66666666666666,
+        "deviceId": "device5",
+        "avarageDelay": 718.9090909090909,
+        "hitNoteCount": 22
+      },
+      {
+        "hitNoteCount": 21,
+        "avarageDelay": 1071.095238095238,
+        "allNoteCount": 24,
+        "score": 87.5,
+        "deviceId": "device6"
+      },
+      {
+        "avarageDelay": null,
+        "score": 0,
+        "hitNoteCount": 0,
+        "deviceId": "device7",
+        "allNoteCount": 16
+      }
+    ],
+    "songId": "b0fc6d7b-639e-43ad-89d0-971e6028a8d3",
+    "createdAt": { "seconds": 1628737795, "nanoseconds": 993000000 },
+    "players": [
+      {
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "devices": ["device1"],
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 940.2692307692307,
+        "accuaracy": 96.29629629629629,
+        "score": "963"
+      },
+      {
+        "devices": ["device3"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 790.2765957446809,
+        "accuaracy": 85.45454545454545,
+        "score": "855"
+      },
+      {
+        "devices": ["device5"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 718.9090909090909,
+        "accuaracy": 91.66666666666666,
+        "score": "917"
+      },
+      {
+        "devices": ["device4"],
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1145.9333333333334,
+        "accuaracy": 93.75,
+        "score": "938"
+      },
+      {
+        "devices": ["device6"],
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1071.095238095238,
+        "accuaracy": 87.5,
+        "score": "875"
+      },
+      {
+        "devices": ["device2"],
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 748.96,
+        "accuaracy": 92.5925925925926,
+        "score": "926"
+      }
+    ],
+    "id": "f5db3522-d3cf-4245-91c9-15956577233f",
+    "songCover": "https://firebasestorage.googleapis.com/v0/b/smart-angklung.appspot.com/o/images%2Fcover%2F1624592003629_2d29da62a87f80455b74ec4770e5fc60.png?alt=media&token=ceaf1ef8-8079-4b97-bdde-89c613cf0ef6",
+    "songName": "จูบเย้ยจันทร์",
+    "bandScore": "912"
+  },
+  {
+    "stats": [
+      {
+        "score": 0,
+        "allNoteCount": 23,
+        "deviceId": "device1",
+        "avarageDelay": null,
+        "hitNoteCount": 0
+      },
+      {
+        "hitNoteCount": 19,
+        "deviceId": "device6",
+        "avarageDelay": 758.9473684210526,
+        "score": 76,
+        "allNoteCount": 25
+      },
+      {
+        "avarageDelay": 950.5238095238095,
+        "allNoteCount": 24,
+        "score": 87.5,
+        "hitNoteCount": 21,
+        "deviceId": "device5"
+      },
+      {
+        "avarageDelay": 1382.375,
+        "allNoteCount": 27,
+        "score": 88.88888888888889,
+        "hitNoteCount": 24,
+        "deviceId": "device2"
+      },
+      {
+        "deviceId": "device8",
+        "score": 95.45454545454545,
+        "allNoteCount": 22,
+        "hitNoteCount": 21,
+        "avarageDelay": 816
+      },
+      {
+        "avarageDelay": 1469,
+        "deviceId": "device7",
+        "score": 20,
+        "allNoteCount": 5,
+        "hitNoteCount": 1
+      },
+      {
+        "allNoteCount": 19,
+        "hitNoteCount": 19,
+        "score": 100,
+        "avarageDelay": 879.8421052631579,
+        "deviceId": "device4"
+      },
+      {
+        "hitNoteCount": 0,
+        "avarageDelay": null,
+        "deviceId": "device3",
+        "score": 0,
+        "allNoteCount": 12
+      }
+    ],
+    "id": "4dd124a8-83ec-4a17-8c35-cb212d1770dd",
+    "songId": "2fb9e4e9-7a42-4994-8422-4096fe303cb2",
+    "createdAt": { "seconds": 1628303685, "nanoseconds": 110000000 },
+    "players": [
+      {
+        "devices": ["device6"],
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 758.9473684210526,
+        "accuaracy": 76,
+        "score": "760"
+      },
+      {
+        "devices": ["device5"],
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 950.5238095238095,
+        "accuaracy": 87.5,
+        "score": "875"
+      },
+      {
+        "devices": ["device8"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 816,
+        "accuaracy": 95.45454545454545,
+        "score": "955"
+      },
+      {
+        "devices": ["device4"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 879.8421052631579,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device7"],
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1469,
+        "accuaracy": 20,
+        "score": "200"
+      },
+      {
+        "devices": ["device2"],
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1382.375,
+        "accuaracy": 88.88888888888889,
+        "score": "889"
+      }
+    ],
+    "songCover": "https://firebasestorage.googleapis.com/v0/b/smart-angklung.appspot.com/o/images%2Fcover%2F1624555809574_%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%98%E0%B8%B4%E0%B8%94%E0%B8%B2.jpg?alt=media&token=bf5bc6dc-126c-46e6-8b8b-4bc82fd0bc3a",
+    "songName": "เทพธิดาเทวี",
+    "bandScore": "780"
+  },
+  {
+    "songId": "f7cf2225-30c8-4362-96eb-49a00654c22a",
+    "stats": [
+      {
+        "avarageDelay": 1123.7368421052631,
+        "allNoteCount": 21,
+        "hitNoteCount": 19,
+        "score": 90.47619047619048,
+        "deviceId": "device1"
+      },
+      {
+        "allNoteCount": 31,
+        "score": 61.29032258064516,
+        "deviceId": "device3",
+        "hitNoteCount": 19,
+        "avarageDelay": 1258.7894736842106
+      },
+      {
+        "deviceId": "device5",
+        "hitNoteCount": 18,
+        "allNoteCount": 21,
+        "avarageDelay": 983.8333333333334,
+        "score": 85.71428571428571
+      },
+      {
+        "hitNoteCount": 19,
+        "score": 95,
+        "allNoteCount": 20,
+        "deviceId": "device8",
+        "avarageDelay": 948.2105263157895
+      },
+      {
+        "allNoteCount": 17,
+        "score": 82.35294117647058,
+        "avarageDelay": 765.2857142857143,
+        "hitNoteCount": 14,
+        "deviceId": "device6"
+      },
+      {
+        "deviceId": "device2",
+        "score": 100,
+        "avarageDelay": 1232,
+        "hitNoteCount": 4,
+        "allNoteCount": 4
+      }
+    ],
+    "createdAt": { "seconds": 1628302980, "nanoseconds": 339000000 },
+    "id": "95a2bb18-b27e-488b-b718-b15e370124bb",
+    "players": [
+      {
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "devices": ["device6"],
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 765.2857142857143,
+        "accuaracy": 82.35294117647058,
+        "score": "824"
+      },
+      {
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "devices": ["device5"],
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 983.8333333333334,
+        "accuaracy": 85.71428571428571,
+        "score": "857"
+      },
+      {
+        "devices": ["device8"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 948.2105263157895,
+        "accuaracy": 95,
+        "score": "950"
+      },
+      {
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "devices": ["device4"],
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 0,
+        "accuaracy": 0,
+        "score": "0"
+      },
+      {
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "devices": ["device7"],
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 0,
+        "accuaracy": 0,
+        "score": "0"
+      },
+      {
+        "devices": ["device2"],
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1232,
+        "accuaracy": 100,
+        "score": "1000"
+      }
+    ],
+    "songName": "หนุ่มนาข้าวสาวนาเกลือ",
+    "bandScore": "605"
+  },
+  {
+    "players": [
+      {
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "devices": ["device6"],
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 1184.6470588235295,
+        "accuaracy": 70.83333333333334,
+        "score": "708"
+      },
+      {
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "devices": ["device5"],
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 1010.75,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device8"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 1185.15,
+        "accuaracy": 76.92307692307693,
+        "score": "769"
+      },
+      {
+        "devices": ["device4"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 929.2857142857143,
+        "accuaracy": 87.5,
+        "score": "875"
+      },
+      {
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "devices": ["device7"],
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1589.111111111111,
+        "accuaracy": 56.25,
+        "score": "563"
+      },
+      {
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "devices": ["device2"],
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1247.8333333333333,
+        "accuaracy": 88.88888888888889,
+        "score": "889"
+      }
+    ],
+    "id": "81696415-2c28-434c-828f-8e470f186059",
+    "stats": [
+      {
+        "hitNoteCount": 0,
+        "allNoteCount": 27,
+        "deviceId": "device1",
+        "avarageDelay": null,
+        "score": 0
+      },
+      {
+        "avarageDelay": null,
+        "deviceId": "device3",
+        "allNoteCount": 55,
+        "score": 0,
+        "hitNoteCount": 0
+      },
+      {
+        "allNoteCount": 26,
+        "avarageDelay": 1185.15,
+        "score": 76.92307692307693,
+        "deviceId": "device8",
+        "hitNoteCount": 20
+      },
+      {
+        "allNoteCount": 27,
+        "deviceId": "device2",
+        "score": 88.88888888888889,
+        "hitNoteCount": 24,
+        "avarageDelay": 1247.8333333333333
+      },
+      {
+        "score": 87.5,
+        "hitNoteCount": 14,
+        "avarageDelay": 929.2857142857143,
+        "allNoteCount": 16,
+        "deviceId": "device4"
+      },
+      {
+        "allNoteCount": 24,
+        "deviceId": "device5",
+        "score": 100,
+        "avarageDelay": 1010.75,
+        "hitNoteCount": 24
+      },
+      {
+        "allNoteCount": 24,
+        "score": 70.83333333333334,
+        "avarageDelay": 1184.6470588235295,
+        "deviceId": "device6",
+        "hitNoteCount": 17
+      },
+      {
+        "hitNoteCount": 9,
+        "deviceId": "device7",
+        "avarageDelay": 1589.111111111111,
+        "allNoteCount": 16,
+        "score": 56.25
+      }
+    ],
+    "songId": "b0fc6d7b-639e-43ad-89d0-971e6028a8d3",
+    "createdAt": { "seconds": 1628302617, "nanoseconds": 393000000 },
+    "songCover": "https://firebasestorage.googleapis.com/v0/b/smart-angklung.appspot.com/o/images%2Fcover%2F1624592003629_2d29da62a87f80455b74ec4770e5fc60.png?alt=media&token=ceaf1ef8-8079-4b97-bdde-89c613cf0ef6",
+    "songName": "จูบเย้ยจันทร์",
+    "bandScore": "801"
+  },
+  {
+    "stats": [
+      {
+        "score": 0,
+        "avarageDelay": null,
+        "hitNoteCount": 0,
+        "deviceId": "device1",
+        "allNoteCount": 5
+      },
+      {
+        "allNoteCount": 24,
+        "hitNoteCount": 17,
+        "deviceId": "device6",
+        "score": 70.83333333333334,
+        "avarageDelay": 958
+      },
+      {
+        "avarageDelay": 1471.8333333333333,
+        "hitNoteCount": 12,
+        "score": 50,
+        "deviceId": "device7",
+        "allNoteCount": 24
+      },
+      {
+        "hitNoteCount": 22,
+        "deviceId": "device2",
+        "avarageDelay": 1680.8181818181818,
+        "score": 91.66666666666666,
+        "allNoteCount": 24
+      },
+      {
+        "deviceId": "device5",
+        "hitNoteCount": 22,
+        "allNoteCount": 24,
+        "score": 91.66666666666666,
+        "avarageDelay": 1154.6818181818182
+      },
+      {
+        "deviceId": "device4",
+        "hitNoteCount": 10,
+        "score": 100,
+        "avarageDelay": 962.1,
+        "allNoteCount": 10
+      },
+      {
+        "avarageDelay": null,
+        "score": 0,
+        "hitNoteCount": 0,
+        "deviceId": "device3",
+        "allNoteCount": 2
+      },
+      {
+        "avarageDelay": 1052.3333333333333,
+        "allNoteCount": 4,
+        "score": 75,
+        "hitNoteCount": 3,
+        "deviceId": "device8"
+      }
+    ],
+    "players": [
+      {
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "devices": ["device6"],
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 958,
+        "accuaracy": 70.83333333333334,
+        "score": "708"
+      },
+      {
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "devices": ["device5"],
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 1154.6818181818182,
+        "accuaracy": 91.66666666666666,
+        "score": "917"
+      },
+      {
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "devices": ["device8"],
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 1052.3333333333333,
+        "accuaracy": 75,
+        "score": "750"
+      },
+      {
+        "devices": ["device4"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 962.1,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device7"],
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1471.8333333333333,
+        "accuaracy": 50,
+        "score": "500"
+      },
+      {
+        "devices": ["device2"],
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1680.8181818181818,
+        "accuaracy": 91.66666666666666,
+        "score": "917"
+      }
+    ],
+    "createdAt": { "seconds": 1628302343, "nanoseconds": 353000000 },
+    "id": "eb0068b6-9c0a-44fe-b53f-cc498ce07c2f",
+    "songId": "b769c7b0-8ef8-41c8-b3ba-b0459988bde6",
+    "songName": "หนุ่มนารอนาง",
+    "bandScore": "799"
+  },
+  {
+    "players": [
+      {
+        "devices": ["device6"],
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 1013.1428571428571,
+        "accuaracy": 87.5,
+        "score": "875"
+      },
+      {
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "devices": ["device5"],
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 1021.1428571428571,
+        "accuaracy": 87.5,
+        "score": "875"
+      },
+      {
+        "devices": ["device8"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 1119,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device4"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 3755.5,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device7"],
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1334.875,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device2"],
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 3853.5,
+        "accuaracy": 100,
+        "score": "1000"
+      }
+    ],
+    "stats": [
+      {
+        "allNoteCount": 8,
+        "hitNoteCount": 0,
+        "score": 0,
+        "deviceId": "device1",
+        "avarageDelay": null
+      },
+      {
+        "avarageDelay": 3853.5,
+        "hitNoteCount": 8,
+        "deviceId": "device2",
+        "allNoteCount": 8,
+        "score": 100
+      },
+      {
+        "hitNoteCount": 0,
+        "allNoteCount": 8,
+        "deviceId": "device3",
+        "avarageDelay": null,
+        "score": 0
+      },
+      {
+        "avarageDelay": 3755.5,
+        "allNoteCount": 8,
+        "hitNoteCount": 8,
+        "deviceId": "device4",
+        "score": 100
+      },
+      {
+        "hitNoteCount": 7,
+        "allNoteCount": 8,
+        "score": 87.5,
+        "deviceId": "device5",
+        "avarageDelay": 1021.1428571428571
+      },
+      {
+        "allNoteCount": 8,
+        "avarageDelay": 1013.1428571428571,
+        "deviceId": "device6",
+        "hitNoteCount": 7,
+        "score": 87.5
+      },
+      {
+        "allNoteCount": 8,
+        "score": 100,
+        "avarageDelay": 1334.875,
+        "deviceId": "device7",
+        "hitNoteCount": 8
+      },
+      {
+        "allNoteCount": 8,
+        "hitNoteCount": 8,
+        "avarageDelay": 1119,
+        "score": 100,
+        "deviceId": "device8"
+      }
+    ],
+    "createdAt": { "seconds": 1628302076, "nanoseconds": 635000000 },
+    "id": "be021d74-2c34-4977-bc5b-c7a47fc67326",
+    "songId": "6783e710-6f02-4885-aba6-0efd1c3303d1",
+    "songName": "Warm Up 1 C Scale",
+    "bandScore": "958"
+  },
+  {
+    "id": "7bdb2d45-86d8-43a9-bb7b-333f8b40ddd8",
+    "stats": [],
+    "players": [
+      { "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5", "devices": null }
+    ],
+    "songId": "b0fc6d7b-639e-43ad-89d0-971e6028a8d3",
+    "createdAt": { "seconds": 1628049049, "nanoseconds": 588000000 },
+    "songCover": "https://firebasestorage.googleapis.com/v0/b/smart-angklung.appspot.com/o/images%2Fcover%2F1624592003629_2d29da62a87f80455b74ec4770e5fc60.png?alt=media&token=ceaf1ef8-8079-4b97-bdde-89c613cf0ef6",
+    "songName": "จูบเย้ยจันทร์",
+    "bandScore": "NaN"
+  },
+  {
+    "createdAt": { "seconds": 1628046156, "nanoseconds": 0 },
+    "stats": [
+      {
+        "avarageDelay": 998.6666666666666,
+        "score": 92.3076923076923,
+        "allNoteCount": 13,
+        "hitNoteCount": 12,
+        "deviceId": "device1"
+      },
+      {
+        "score": 100,
+        "deviceId": "device3",
+        "hitNoteCount": 21,
+        "allNoteCount": 21,
+        "avarageDelay": 1131.4285714285713
+      },
+      {
+        "avarageDelay": 797.8333333333334,
+        "hitNoteCount": 12,
+        "allNoteCount": 13,
+        "deviceId": "device5",
+        "score": 92.3076923076923
+      },
+      {
+        "allNoteCount": 12,
+        "score": 100,
+        "hitNoteCount": 12,
+        "avarageDelay": 1368.5833333333333,
+        "deviceId": "device8"
+      },
+      {
+        "hitNoteCount": 11,
+        "score": 91.66666666666666,
+        "deviceId": "device6",
+        "avarageDelay": 1599.909090909091,
+        "allNoteCount": 12
+      },
+      {
+        "deviceId": "device2",
+        "avarageDelay": 1297.3333333333333,
+        "allNoteCount": 3,
+        "score": 100,
+        "hitNoteCount": 3
+      }
+    ],
+    "songId": "f7cf2225-30c8-4362-96eb-49a00654c22a",
+    "players": [
+      {
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "devices": ["device5"],
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 797.8333333333334,
+        "accuaracy": 92.3076923076923,
+        "score": "923"
+      },
+      {
+        "devices": ["device1"],
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 998.6666666666666,
+        "accuaracy": 92.3076923076923,
+        "score": "923"
+      },
+      {
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "devices": ["device4"],
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 0,
+        "accuaracy": 0,
+        "score": "0"
+      },
+      {
+        "devices": ["device2"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 1297.3333333333333,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device6"],
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1599.909090909091,
+        "accuaracy": 91.66666666666666,
+        "score": "917"
+      },
+      {
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "devices": ["device8"],
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1368.5833333333333,
+        "accuaracy": 100,
+        "score": "1000"
+      }
+    ],
+    "id": "5564f337-2ec7-4860-bd57-a26f087dbe05",
+    "songName": "หนุ่มนาข้าวสาวนาเกลือ",
+    "bandScore": "794"
+  },
+  {
+    "id": "6a97cb42-6b04-42ff-b2b3-74951d5cb23a",
+    "players": [
+      {
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "devices": ["device5"],
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 975,
+        "accuaracy": 92.3076923076923,
+        "score": "923"
+      },
+      {
+        "devices": ["device1"],
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 934.9285714285714,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device4"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 0,
+        "accuaracy": 0,
+        "score": "0"
+      },
+      {
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "devices": ["device2"],
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 1352.6666666666667,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "devices": ["device6"],
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1520.7,
+        "accuaracy": 83.33333333333334,
+        "score": "833"
+      },
+      {
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "devices": ["device8"],
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1328.5384615384614,
+        "accuaracy": 100,
+        "score": "1000"
+      }
+    ],
+    "createdAt": { "seconds": 1628045892, "nanoseconds": 0 },
+    "songId": "f7cf2225-30c8-4362-96eb-49a00654c22a",
+    "stats": [
+      {
+        "avarageDelay": 934.9285714285714,
+        "hitNoteCount": 14,
+        "allNoteCount": 14,
+        "deviceId": "device1",
+        "score": 100
+      },
+      {
+        "deviceId": "device3",
+        "avarageDelay": 841.4090909090909,
+        "hitNoteCount": 22,
+        "score": 100,
+        "allNoteCount": 22
+      },
+      {
+        "allNoteCount": 13,
+        "hitNoteCount": 12,
+        "avarageDelay": 975,
+        "score": 92.3076923076923,
+        "deviceId": "device5"
+      },
+      {
+        "hitNoteCount": 13,
+        "score": 100,
+        "deviceId": "device8",
+        "allNoteCount": 13,
+        "avarageDelay": 1328.5384615384614
+      },
+      {
+        "allNoteCount": 12,
+        "avarageDelay": 1520.7,
+        "hitNoteCount": 10,
+        "deviceId": "device6",
+        "score": 83.33333333333334
+      },
+      {
+        "deviceId": "device2",
+        "score": 100,
+        "hitNoteCount": 3,
+        "avarageDelay": 1352.6666666666667,
+        "allNoteCount": 3
+      }
+    ],
+    "songName": "หนุ่มนาข้าวสาวนาเกลือ",
+    "bandScore": "793"
+  },
+  {
+    "stats": [
+      {
+        "score": 91.66666666666666,
+        "hitNoteCount": 11,
+        "deviceId": "device1",
+        "avarageDelay": 639.5454545454545,
+        "allNoteCount": 12
+      },
+      {
+        "avarageDelay": 1060.3636363636363,
+        "allNoteCount": 11,
+        "deviceId": "device8",
+        "score": 100,
+        "hitNoteCount": 11
+      },
+      {
+        "score": 100,
+        "avarageDelay": 669.4615384615385,
+        "deviceId": "device2",
+        "hitNoteCount": 13,
+        "allNoteCount": 13
+      },
+      {
+        "allNoteCount": 7,
+        "hitNoteCount": 7,
+        "score": 100,
+        "deviceId": "device5",
+        "avarageDelay": 784.4285714285714
+      },
+      {
+        "deviceId": "device3",
+        "hitNoteCount": 11,
+        "allNoteCount": 11,
+        "score": 100,
+        "avarageDelay": 624.5454545454545
+      },
+      {
+        "allNoteCount": 12,
+        "score": 75,
+        "hitNoteCount": 9,
+        "deviceId": "device6",
+        "avarageDelay": 1418.7777777777778
+      },
+      {
+        "hitNoteCount": 0,
+        "avarageDelay": null,
+        "deviceId": "device7",
+        "allNoteCount": 9,
+        "score": 0
+      }
+    ],
+    "songId": "b0fc6d7b-639e-43ad-89d0-971e6028a8d3",
+    "players": [
+      {
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "devices": ["device5"],
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 784.4285714285714,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "devices": ["device1"],
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 639.5454545454545,
+        "accuaracy": 91.66666666666666,
+        "score": "917"
+      },
+      {
+        "devices": ["device4"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 0,
+        "accuaracy": 0,
+        "score": "0"
+      },
+      {
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "devices": ["device2"],
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 669.4615384615385,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "devices": ["device6"],
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1418.7777777777778,
+        "accuaracy": 75,
+        "score": "750"
+      },
+      {
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "devices": ["device8"],
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1060.3636363636363,
+        "accuaracy": 100,
+        "score": "1000"
+      }
+    ],
+    "createdAt": { "seconds": 1628045595, "nanoseconds": 0 },
+    "id": "74f21872-b95e-4f1b-8bbc-e30605870096",
+    "songCover": "https://firebasestorage.googleapis.com/v0/b/smart-angklung.appspot.com/o/images%2Fcover%2F1624592003629_2d29da62a87f80455b74ec4770e5fc60.png?alt=media&token=ceaf1ef8-8079-4b97-bdde-89c613cf0ef6",
+    "songName": "จูบเย้ยจันทร์",
+    "bandScore": "778"
+  },
+  {
+    "songId": "b0fc6d7b-639e-43ad-89d0-971e6028a8d3",
+    "createdAt": { "seconds": 1628045361, "nanoseconds": 0 },
+    "stats": [
+      {
+        "allNoteCount": 15,
+        "avarageDelay": 814.3846153846154,
+        "score": 86.66666666666667,
+        "deviceId": "device1",
+        "hitNoteCount": 13
+      },
+      {
+        "hitNoteCount": 13,
+        "deviceId": "device8",
+        "score": 92.85714285714286,
+        "allNoteCount": 14,
+        "avarageDelay": 1222.923076923077
+      },
+      {
+        "deviceId": "device2",
+        "hitNoteCount": 15,
+        "avarageDelay": 729.6666666666666,
+        "allNoteCount": 15,
+        "score": 100
+      },
+      {
+        "avarageDelay": 566,
+        "score": 88.88888888888889,
+        "deviceId": "device5",
+        "hitNoteCount": 8,
+        "allNoteCount": 9
+      },
+      {
+        "score": 16.666666666666664,
+        "hitNoteCount": 2,
+        "allNoteCount": 12,
+        "deviceId": "device3",
+        "avarageDelay": 1789.5
+      },
+      {
+        "avarageDelay": 1428,
+        "allNoteCount": 15,
+        "hitNoteCount": 12,
+        "score": 80,
+        "deviceId": "device6"
+      },
+      {
+        "score": 0,
+        "allNoteCount": 11,
+        "avarageDelay": null,
+        "deviceId": "device7",
+        "hitNoteCount": 0
+      }
+    ],
+    "players": [
+      {
+        "devices": ["device5"],
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 566,
+        "accuaracy": 88.88888888888889,
+        "score": "889"
+      },
+      {
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "devices": ["device1"],
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 814.3846153846154,
+        "accuaracy": 86.66666666666667,
+        "score": "867"
+      },
+      {
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "devices": ["device4"],
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 0,
+        "accuaracy": 0,
+        "score": "0"
+      },
+      {
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "devices": ["device2"],
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 729.6666666666666,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "devices": ["device6"],
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1428,
+        "accuaracy": 80,
+        "score": "800"
+      },
+      {
+        "devices": ["device8"],
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1222.923076923077,
+        "accuaracy": 92.85714285714286,
+        "score": "929"
+      }
+    ],
+    "id": "3f8a77ca-7d0a-4ce1-8605-308fa0582cde",
+    "songCover": "https://firebasestorage.googleapis.com/v0/b/smart-angklung.appspot.com/o/images%2Fcover%2F1624592003629_2d29da62a87f80455b74ec4770e5fc60.png?alt=media&token=ceaf1ef8-8079-4b97-bdde-89c613cf0ef6",
+    "songName": "จูบเย้ยจันทร์",
+    "bandScore": "748"
+  },
+  {
+    "players": [
+      {
+        "devices": ["device5"],
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 892.25,
+        "accuaracy": 75,
+        "score": "750"
+      },
+      {
+        "devices": ["device1"],
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 963.5,
+        "accuaracy": 44.44444444444444,
+        "score": "444"
+      },
+      {
+        "devices": ["device4"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 1192.25,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device2"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 1194.9,
+        "accuaracy": 71.42857142857143,
+        "score": "714"
+      },
+      {
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "devices": ["device6"],
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1771.8333333333333,
+        "accuaracy": 40,
+        "score": "400"
+      },
+      {
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "devices": ["device8"],
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 1138.076923076923,
+        "accuaracy": 50,
+        "score": "500"
+      }
+    ],
+    "createdAt": { "seconds": 1628044754, "nanoseconds": 0 },
+    "songId": "fd1f0200-38fe-4eeb-8f21-8c2febc567df",
+    "id": "77fc79f2-178d-48b2-8b14-bea0e8504b7c",
+    "stats": [
+      {
+        "allNoteCount": 27,
+        "avarageDelay": 963.5,
+        "hitNoteCount": 12,
+        "score": 44.44444444444444,
+        "deviceId": "device1"
+      },
+      {
+        "deviceId": "device8",
+        "allNoteCount": 26,
+        "avarageDelay": 1138.076923076923,
+        "hitNoteCount": 13,
+        "score": 50
+      },
+      {
+        "allNoteCount": 15,
+        "avarageDelay": 1771.8333333333333,
+        "deviceId": "device6",
+        "hitNoteCount": 6,
+        "score": 40
+      },
+      {
+        "score": 75,
+        "allNoteCount": 16,
+        "avarageDelay": 892.25,
+        "hitNoteCount": 12,
+        "deviceId": "device5"
+      },
+      {
+        "deviceId": "device3",
+        "avarageDelay": null,
+        "hitNoteCount": 0,
+        "score": 0,
+        "allNoteCount": 19
+      },
+      {
+        "deviceId": "device2",
+        "hitNoteCount": 10,
+        "score": 71.42857142857143,
+        "avarageDelay": 1194.9,
+        "allNoteCount": 14
+      },
+      {
+        "deviceId": "device4",
+        "avarageDelay": 1192.25,
+        "score": 100,
+        "allNoteCount": 4,
+        "hitNoteCount": 4
+      },
+      {
+        "hitNoteCount": 0,
+        "deviceId": "device7",
+        "allNoteCount": 2,
+        "avarageDelay": null,
+        "score": 0
+      }
+    ],
+    "songName": "บุพเพสันนิวาส",
+    "bandScore": "635"
+  },
+  {
+    "players": [
+      {
+        "devices": ["device5"],
+        "id": "42fc6fcd-3d12-447d-9184-0c1e0c4f5df5",
+        "name": "คุณยายอัญธิกา",
+        "createdAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "imageUrl": null,
+        "updatedAt": { "seconds": 1628042118, "nanoseconds": 468000000 },
+        "delay": 696.75,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "id": "17d0b2f9-2aac-4fe9-a0aa-ce12c08bc294",
+        "devices": ["device1"],
+        "updatedAt": { "seconds": 1628042095, "nanoseconds": 851000000 },
+        "createdAt": { "seconds": 1628042095, "nanoseconds": 850000000 },
+        "name": "คุณยายวัลภา",
+        "imageUrl": null,
+        "delay": 1145.125,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device4"],
+        "id": "70072f57-2055-4287-9749-7d491407ff76",
+        "name": "คุณยายกชกร",
+        "updatedAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042080, "nanoseconds": 494000000 },
+        "delay": 987.125,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "devices": ["device2"],
+        "id": "9b338740-b4b4-43db-955d-43138728c940",
+        "imageUrl": null,
+        "name": "คุณยายมร",
+        "createdAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "updatedAt": { "seconds": 1628042057, "nanoseconds": 757000000 },
+        "delay": 1025.375,
+        "accuaracy": 100,
+        "score": "1000"
+      },
+      {
+        "id": "f6c9fea0-ff05-42c8-bdf8-171a8de53200",
+        "devices": ["device6"],
+        "createdAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "imageUrl": null,
+        "name": "คุณยายอ๋อย",
+        "updatedAt": { "seconds": 1628042042, "nanoseconds": 83000000 },
+        "delay": 1272.6,
+        "accuaracy": 62.5,
+        "score": "625"
+      },
+      {
+        "id": "977c02b9-3fb0-4f2a-964c-f0e370daa9fa",
+        "devices": ["device8"],
+        "name": "คุณยายตุ๊ก",
+        "imageUrl": null,
+        "createdAt": { "seconds": 1628042020, "nanoseconds": 445000000 },
+        "updatedAt": { "seconds": 1628042020, "nanoseconds": 446000000 },
+        "delay": 878.75,
+        "accuaracy": 100,
+        "score": "1000"
+      }
+    ],
+    "songId": "6783e710-6f02-4885-aba6-0efd1c3303d1",
+    "createdAt": { "seconds": 1628044512, "nanoseconds": 0 },
+    "stats": [
+      {
+        "score": 100,
+        "allNoteCount": 8,
+        "deviceId": "device1",
+        "avarageDelay": 1145.125,
+        "hitNoteCount": 8
+      },
+      {
+        "score": 100,
+        "allNoteCount": 8,
+        "hitNoteCount": 8,
+        "deviceId": "device2",
+        "avarageDelay": 1025.375
+      },
+      {
+        "deviceId": "device3",
+        "hitNoteCount": 0,
+        "avarageDelay": null,
+        "score": 0,
+        "allNoteCount": 8
+      },
+      {
+        "score": 100,
+        "deviceId": "device4",
+        "allNoteCount": 8,
+        "hitNoteCount": 8,
+        "avarageDelay": 987.125
+      },
+      {
+        "hitNoteCount": 8,
+        "avarageDelay": 696.75,
+        "allNoteCount": 8,
+        "score": 100,
+        "deviceId": "device5"
+      },
+      {
+        "deviceId": "device6",
+        "avarageDelay": 1272.6,
+        "hitNoteCount": 5,
+        "score": 62.5,
+        "allNoteCount": 8
+      },
+      {
+        "hitNoteCount": 0,
+        "deviceId": "device7",
+        "allNoteCount": 8,
+        "avarageDelay": null,
+        "score": 0
+      },
+      {
+        "score": 100,
+        "hitNoteCount": 8,
+        "deviceId": "device8",
+        "allNoteCount": 8,
+        "avarageDelay": 878.75
+      }
+    ],
+    "id": "655f5ee5-cce8-4edc-a30a-650428d682c6",
+    "songName": "Warm Up 1 C Scale",
+    "bandScore": "938"
+  }
+]

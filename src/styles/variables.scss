@@ -1,0 +1,23 @@
+$border-radius-root: 0.5rem;
+$body-font-family: 'Maitree', serif !important;
+$heading-font-family: $body-font-family !important;
+$card-border-radius: 1rem;
+$slider-track-width: 8px;
+$slider-track-border-radius: 50%;
+$slider-tick-border-radius: 50%;
+$slider-thumb-size: 24px;
+$stepper-step-step-width: 50px;
+$stepper-step-step-height: 50px;
+$stepper-step-step-font-size: 24px;
+$stepper-header-divider-margin: 0 -32px !default;
+$stepper-alt-labels-header-divider: 49px -50px 0 !default;
+$headings: (
+  'h4': (
+    'size': 2rem,
+    'weight': 600
+  ),
+  'h5': (
+    'size': 1.5rem,
+    'weight': 600
+  )
+);
