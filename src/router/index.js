@@ -18,109 +18,109 @@ import PlayResult from "@/views/play/Result";
 
 Vue.use(VueRouter);
 
-// export const nonAuthOnly = (to, from, next) => {
-//   Promise.all([store.dispatch(CHECK_AUTH)])
-//     .then(() => next("/"))
-//     .catch(() => next());
-// };
+export const nonAuthOnly = (to, from, next) => {
+  Promise.all([store.dispatch(CHECK_AUTH)])
+    .then(() => next("/"))
+    .catch(() => next());
+};
 
-// export const auth = (to, from, next) => {
-//   Promise.all([store.dispatch(CHECK_AUTH)])
-//     .then(next)
-//     .catch(() => {
-//       next("/login");
-//     });
-// };
+export const auth = (to, from, next) => {
+  Promise.all([store.dispatch(CHECK_AUTH)])
+    .then(next)
+    .catch(() => {
+      next("/login");
+    });
+};
 
 const router = new VueRouter({
   routes: [
     {
       name: "home",
       path: "/",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: Home,
     },
     {
       name: "song",
       path: "/song",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: Song,
     },
     {
       name: "history",
       path: "/history",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: History,
     }, {
       name: "historyDetail",
       path: "/history/detail",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: HistoryDetail,
     },
     {
       name: "user",
       path: "/User",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: User,
     },
     {
       name: "login",
       path: "/login",
-      // beforeEnter: nonAuthOnly,
+      beforeEnter: nonAuthOnly,
       component: Login,
     },
     {
       name: "pickBand",
       path: "/play/band",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: Band,
     },
     {
       name: "pickSong",
       path: "/play/song",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: PlaySong,
     },
     {
       name: "level",
       path: "/play/level",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: PlayLevel,
     },
     {
       name: "device",
       path: "/play/device",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: PlayDevice,
     },
     {
       name: "player",
       path: "/play/player",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: PlayPlayer,
     },
     {
       name: "result",
       path: "/play/result",
-      // beforeEnter: auth,
+      beforeEnter: auth,
       component: PlayResult,
     },
   ],
 });
 
-router.beforeEach((to, from, next) =>
-  Promise.all([store.dispatch(CHECK_AUTH)])
-    .then(next)
-    .catch(() => {
-      console.log(to);
-      if (to.name !== "login") {
-        console.log("beforeCatch");
-        next();
-        // next({ name: "login" });
-      }
-    })
+// router.beforeEach((to, from, next) =>
+//   Promise.all([store.dispatch(CHECK_AUTH)])
+//     .then(next)
+//     .catch(() => {
+//       console.log(to);
+//       if (to.name !== "login") {
+//         console.log("beforeCatch");
+//         next();
+//         next({ name: "login" });
+//       }
+//     })
 
-);
+// );
 
 console.log("router", router);
 
