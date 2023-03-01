@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-// import store from "@/store";
-// import { CHECK_AUTH } from "@/store/actions.type";
+import store from "@/store";
+import { CHECK_AUTH } from "@/store/actions.type";
 
 import Login from "@/views/Login";
 import Song from "@/views/song/Index";
@@ -108,20 +108,20 @@ const router = new VueRouter({
   ],
 });
 
-// router.beforeEach((to, from, next) =>
-//   Promise.all([store.dispatch(CHECK_AUTH)])
-//     .then(next)
-//     .catch(() => {
-//       console.log(to);
-//       if (to.name !== "login") {
-//         console.log("beforeCatch");
-//         next();
-//         // next({ name: "login" });
-//       }
-//     })
+router.beforeEach((to, from, next) =>
+  Promise.all([store.dispatch(CHECK_AUTH)])
+    .then(next)
+    .catch(() => {
+      console.log(to);
+      if (to.name !== "login") {
+        console.log("beforeCatch");
+        next();
+        // next({ name: "login" });
+      }
+    })
 
-// );
+);
 
-// console.log("router", router);
+console.log("router", router);
 
 export default router;
