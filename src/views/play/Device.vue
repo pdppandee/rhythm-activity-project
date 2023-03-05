@@ -87,6 +87,7 @@
               หยุดเล่น อุปกรณ์ชุดที่ {{ player.devices[0].number }} ในเพลงนี้
             </h1>
           </v-card>
+
           <v-container class="pa-6">
             <v-row class="ma-0">
               <avatar-tile
@@ -251,10 +252,11 @@ export default {
       this.$store.dispatch(SELECT_SONG, song);
       this.midiLoading = false;
     },
+     //TODO: edit here
     async calculateAvailableNotes() {
       const midiDetail = await this.analyseMidi(this.song);
 
-      const availableNotes = {};
+      const availableNotes = {}; 
       midiDetail.notes.forEach((note) => {
         const key = `${note.pitch}${
           note.octave >= midiDetail.maxOctave ? "2" : ""
@@ -270,7 +272,7 @@ export default {
         this.devices &&
         this.players.length <= this.devices.length
       ) {
-        console.log("available note", Object.keys(this.availableNotes));
+        console.log("available note" , Object.keys(this.availableNotes)); //(7)['C', 'C2', 'D', 'G', 'E', 'A', 'B']
         console.log(
           "before sort",
           this.devices.map((d) => d.note)
@@ -307,7 +309,6 @@ export default {
         (player) =>
           (oldSequenceDevices = [...oldSequenceDevices, ...player.devices])
       );
-
       const unAssignedAvailableDevice = [];
 
       const oldSequenceDeviceNotes = oldSequenceDevices.map(
@@ -357,7 +358,7 @@ export default {
     setDeviceOnline(id) {
       this.$store.dispatch(UPDATE_DEVICE_STATUS, { id, status: 1 });
     },
-    blinkDevice(device) {
+    blinkDevice(device) { //set state to device BLINK_DEVICE contains payload 
       this.$store.dispatch(BLINK_DEVICE, {
         id: device.id,
         timestamp: new Date().getTime(),
@@ -369,20 +370,20 @@ export default {
           timestamp: new Date().getTime(),
           state: "red",
         });
-      }, 1000);
+      }, 1000); //with a new state of "red". This will cause the device to blink from green to red after a delay of 1 second.
     },
     launchPlayer(force = false) {
       const notReadyDeives = this.devices
-        .map((device) => device.pingShaker && device.pingDetector)
-        .filter((status) => !status);
+        .map((device) => device.pingShaker && device.pingDetector) // TODO: remove  device.pingShaker && 
+        .filter((status) => !status); //choose not ready device
       if (notReadyDeives.length <= 0 || force) {
         this.$store.dispatch(UNSUBSCRIBE_DEVICE_UPDATE);
         this.$router.replace({ name: "player" });
       } else {
-        this.shouldShowNotReadyDevice = true;
+        this.shouldShowNotReadyDevice = true; //trigger alert dialog
       }
     },
-    getUpdatedDevice(deviceId) {
+    getUpdatedDevice(deviceId) { //check isDeviceOnline
       if (this.devices) {
         return this.devices.find((device) => device.id === deviceId) || {};
       }
