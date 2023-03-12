@@ -35,17 +35,17 @@ const getters = {
     if (state.devices)
       return state.devices.map((device) => {
         const requestTimestamp = parseInt(device.requestTimestamp);
-        const responseShakerTimestamp = parseInt(
-          device.responseShakerTimestamp
-        );
+        // const responseShakerTimestamp = parseInt(
+        //   device.responseShakerTimestamp
+        // );
         const responseDetectorTimestamp = parseInt(
           device.responseDetectorTimestamp
         );
-        if (!isNaN(requestTimestamp) && !isNaN(responseShakerTimestamp)) {
-          device.pingShaker = responseShakerTimestamp - requestTimestamp;
-        } else {
-          device.pingShaker = undefined;
-        }
+        // if (!isNaN(requestTimestamp) && !isNaN(responseShakerTimestamp)) {
+        //   device.pingShaker = responseShakerTimestamp - requestTimestamp;
+        // } else {
+        //   device.pingShaker = undefined;
+        // }
         if (!isNaN(requestTimestamp) && !isNaN(responseDetectorTimestamp)) {
           device.pingDetector = responseDetectorTimestamp - requestTimestamp;
         } else {
@@ -111,7 +111,7 @@ const actions = {
           removeUndefiedField({
             ...device,
             requestTimestamp: undefined,
-            responseShakerTimestamp: undefined,
+            //responseShakerTimestamp: undefined,
             responseDetectorTimestamp: undefined,
           })
         )
@@ -178,12 +178,12 @@ const actions = {
               let updatedDevice = {
                 id: value.id,
               };
-              if (value.type === "shaker") {
-                updatedDevice = {
-                  ...updatedDevice,
-                  responseShakerTimestamp: `${new Date().getTime()}`,
-                };
-              }
+              // if (value.type === "shaker") {
+              //   updatedDevice = {
+              //     ...updatedDevice,
+              //     responseShakerTimestamp: `${new Date().getTime()}`,
+              //   };
+              //}
               if (value.type === "detector") {
                 updatedDevice = {
                   ...updatedDevice,

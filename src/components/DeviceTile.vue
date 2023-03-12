@@ -24,10 +24,15 @@
       </v-row>
       <v-row class="pa-2" justify="center">
         <span
-          v-if="statusShaker === 1 && statusDetector === 1"
+          v-if="statusDetector === 1"
           class="online shadow--text body-1"
           >พร้อมใช้งาน</span
         >
+        <!--span
+          v-if="statusShaker === 1 && statusDetector === 1"
+          class="online shadow--text body-1"
+          >พร้อมใช้งาน</span
+        -->
         <span v-else class="offline shadow--text body-1">ไม่พร้อมใช้งาน</span>
         <!-- <span v-if="pingShaker" class="ml-1" style="font-size: 0.5rem">({{ pingShaker }}ms)</span> -->
       </v-row>
@@ -38,8 +43,8 @@
 export default {
   props: {
     title: null,
-    statusShaker: null,
-    pingShaker: null,
+    //statusShaker: null,
+    //pingShaker: null,
     statusDetector: null,
     pingDetector: null,
     disabled: {

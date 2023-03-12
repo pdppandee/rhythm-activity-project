@@ -114,13 +114,26 @@
                 :disabled="shouldDisableDeviceTile(player.devices, device)"
                 @click="blinkDevice(device)"
                 :title="`อุปกรณ์ชุดที่ ${device.number}`"
+                :statusDetector="
+                  isDeviceOnline(getUpdatedDevice(device.id)) ? 1 : 0
+                "
+              />
+              <!--device-tile
+                v-for="(device, index) in player.devices"
+                :key="device.id"
+                :style="`width: ${player.devices.length > 1 ? '21%' : '45%'}`"
+                :class="{ 'ml-4': index >= 1 }"
+                clickable
+                :disabled="shouldDisableDeviceTile(player.devices, device)"
+                @click="blinkDevice(device)"
+                :title="`อุปกรณ์ชุดที่ ${device.number}`"
                 :statusShaker="
                   isDeviceOnline(getUpdatedDevice(device.id)) ? 1 : 0
                 "
                 :statusDetector="
                   isDeviceOnline(getUpdatedDevice(device.id)) ? 1 : 0
                 "
-              />
+              /--->
             </v-row>
           </v-container>
         </v-card>
@@ -374,7 +387,8 @@ export default {
     },
     launchPlayer(force = false) {
       const notReadyDeives = this.devices
-        .map((device) => device.pingShaker && device.pingDetector) // TODO: remove  device.pingShaker && 
+        // .map((device) => device.pingShaker && device.pingDetector) // TODO: remove  device.pingShaker && 
+        .map((device) => device.pingDetector)
         .filter((status) => !status); //choose not ready device
       if (notReadyDeives.length <= 0 || force) {
         this.$store.dispatch(UNSUBSCRIBE_DEVICE_UPDATE);
@@ -391,7 +405,8 @@ export default {
     },
     isDeviceOnline(device) {
       return (
-        device.pingShaker !== undefined && device.pingDetector !== undefined
+        //device.pingShaker !== undefined && device.pingDetector !== undefined
+        device.pingDetector !== undefined
       );
     },
     isEveryDeviceOnline(nonUpdateDevices) {
