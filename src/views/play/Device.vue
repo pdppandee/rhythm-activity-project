@@ -112,9 +112,9 @@
                 :class="{ 'ml-4': index >= 1 }"
                 clickable
                 :disabled="shouldDisableDeviceTile(player.devices, device)"
-                @click="blinkDevice(device)"
+                @click="blinkDevice(device)" 
                 :title="`อุปกรณ์ชุดที่ ${device.number}`"
-                :statusDetector="
+                :statusDetector=" 
                   isDeviceOnline(getUpdatedDevice(device.id)) ? 1 : 0
                 "
               />
@@ -125,12 +125,12 @@
                 :class="{ 'ml-4': index >= 1 }"
                 clickable
                 :disabled="shouldDisableDeviceTile(player.devices, device)"
-                @click="blinkDevice(device)"
+                @click="blinkDevice(device)" //เรียกใช้เมื่อคลิ้ก
                 :title="`อุปกรณ์ชุดที่ ${device.number}`"
                 :statusShaker="
                   isDeviceOnline(getUpdatedDevice(device.id)) ? 1 : 0
                 "
-                :statusDetector="
+                :statusDetector=" //กำหนดสถานะว่าออนไลน์อยู่ไหม
                   isDeviceOnline(getUpdatedDevice(device.id)) ? 1 : 0
                 "
               /--->

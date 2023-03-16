@@ -289,7 +289,7 @@ export default {
         .map((device) => ({
           ...device,
           color: "red",
-          title: "Standby",
+          title: "Standby", // standby for show midi to play
         }))
         .sort((a, b) => (a.id > b.id ? 1 : a.id < b.id ? -1 : 0));
     },
@@ -404,7 +404,7 @@ export default {
           )[0] || null;
 
         if (note.noteOn && this.showYellowSignal) {
-          this.blinkDevice(device.id, "yellow", note.noteName);
+          this.blinkDevice(device.id, "yellow", note.noteName); // wait for blink
         }
 
         // console.log("process log", logEvents);
