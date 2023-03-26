@@ -404,16 +404,19 @@ export default {
           )[0] || null;
 
         if (note.noteOn && this.showYellowSignal) {
-          this.blinkDevice(device.id, "yellow", note.noteName); // wait for blink
+          this.blinkDevice(device.id, "yellow"); // wait for blink
+          // this.blinkDevice(device.id, "yellow", note.noteName); // wait for blink
         }
 
         // console.log("process log", logEvents);
 
         setTimeout(() => {
           if (note.noteOn) {
-            this.blinkDevice(device.id, "green", note.noteName);
+            this.blinkDevice(device.id, "green","claps");
+            //this.blinkDevice(device.id, "green", note.noteName);
           } else {
-            this.blinkDevice(device.id, "red", note.noteName);
+            this.blinkDevice(device.id, "red");
+            //this.blinkDevice(device.id, "red", note.noteName)
           }
         }, DELAY_TIME);
       }
