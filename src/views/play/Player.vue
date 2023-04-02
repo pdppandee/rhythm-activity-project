@@ -115,9 +115,9 @@
               >Band Simulator</span
             >
           </v-row>
-          <v-row justify="center">
+          <v-row justify="center"> 
             <v-row
-              class="device-simulator ma-5"
+              class="device-simulator ma-3"
               :class="{ [device.color]: device.color }"
               justify="center"
               align="center"
@@ -384,7 +384,7 @@ export default {
     turnOffAllHardware() {
       setTimeout(() => {
         this.devices.forEach((device) => {
-          this.blinkDevice(device.id, "red", "Standby");
+          this.blinkDevice(device.id, "red");
         });
       }, DELAY_TIME + 100);
     },
@@ -486,7 +486,7 @@ export default {
 .device-simulator {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 20%;
   color: white;
   background: #de736c;
   max-width: 100px;
