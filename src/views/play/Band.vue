@@ -22,6 +22,29 @@
                     {{ `${selectedPlayers.length}/${maxDevices}` }}
                   </h1>
               </v-row>
+              <!-- <v-row class="bt-4">
+                <h1 class="bt-4">
+                  เล่นแบบไม่ได้ลงทะเบียน
+                </h1>
+
+                <v-col
+                  cols="12"
+                  sm="6"
+                  md="4"
+                  lg="3"
+                >
+                  <v-col
+                    clickable
+                        :showSelected="selectAllPlayers()"
+                        @click="this.SelectPlayer(player)"
+                  />
+                </v-col>
+                    
+              </v-row> -->
+
+              <button @click="selectAllPlayers">กดที่นี่หากต้องการเลือกผู้เล่นทุกคน หรือสำหรับผู้ที่ไม่ทราบหมายเลขอุปกรณ์</button>
+
+              
               <v-row
                 class="mt-4"
                 style="min-height: 55rem"
@@ -231,6 +254,21 @@ export default {
     isPlayerSelected(player) {
       return this.selectedPlayers.includes(player);
     },
+    
+    selectAllPlayers() {
+      this.selectedPlayers = this.players.filter(player => player.selectedCount = this.maxDevicePlayer);
+      this.$store.dispatch(SELECT_PLAYERS, this.selectedPlayers);
+      // this.selectedPlayers.push(player);
+
+      
+    },
+
+    // unselectAllPlayers(player) {
+    //   if (this.isPlayerSelected(player)) {
+    //     this.removePlayer = this.players.filter(player => player.selectedCount = 0);
+    // }
+    // },
+    
     removePlayer(player) {
       const removePlayer = this.players.find((p) => p.id === player.id);
       if (player) removePlayer.selectedCount -= 1;
