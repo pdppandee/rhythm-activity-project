@@ -35,7 +35,7 @@
           {{ trackDuration | fancyTimeFormat }}</span
         >
       </v-row>
-      <v-row>
+      <v-row >
         <midi-player
           ref="midiPlayer"
           v-if="song && song.midiUrl"
@@ -47,7 +47,7 @@
       </v-row>
       <audio ref="audios" :src="audioFile"></audio>
       <audio ref="audio" :src="audioFile"></audio>
-      <v-card  class="bottom-panel">
+      <v-card  class="bottom">
         <v-row justify="center" class="mt-8">
           <v-btn
             elevation="2"
@@ -76,7 +76,7 @@
             <v-icon large>mdi-pause</v-icon>
           </v-btn>
         </v-row>
-        <v-row align="center" class="ma-12">
+        <v-row align="center" class="ma-12" >
           <v-col cols="12" sm="6">
             <v-row justify="center" class="justify-sm-start">
               <level-selector @selected="changeLevel" />
@@ -96,9 +96,9 @@
                 >Band Simulator</v-col
               >
             </v-row>
-            <v-row justify="center"> 
+            <v-row justify="center" > 
               <v-row
-                class="device-simulator ma-3"
+                class="device-simulator  ma-auto"
                 :class="{ [device.color]: device.color }"
                 justify="center"
                 align="center"
