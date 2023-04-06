@@ -1,7 +1,7 @@
 <template>
   <div class="px-8">
     <progress-step :step="5" hideStep />
-    <v-container class="px-8" style="max-width: 800px">
+    <v-container class="px-8" style="max-width: 1000px">
       <v-row justify="center" class="mt-10" @click="isSimulatorShow = true">
         <album-cover
           :src="song.cover"
@@ -47,7 +47,7 @@
       </v-row>
       <audio ref="audios" :src="audioFile"></audio>
       <audio ref="audio" :src="audioFile"></audio>
-      <v-card class="bottom-panel">
+      <v-card  class="bottom-panel">
         <v-row justify="center" class="mt-8">
           <v-btn
             elevation="2"
@@ -89,6 +89,48 @@
             </v-row>
           </v-col>
         </v-row>
+          <v-card>
+          <v-container class="pa-8">
+            <v-row justify="center" class="mb-4">
+              <v-col class="charcoal--text text-h4 text-center"
+                >Band Simulator</v-col
+              >
+            </v-row>
+            <v-row justify="center"> 
+              <v-row
+                class="device-simulator ma-3"
+                :class="{ [device.color]: device.color }"
+                justify="center"
+                align="center"
+                v-for="device in simulatorDevices"
+                :key="device.id"
+              >
+                <div class="text-center">
+                  <span>{{ device.title }}</span
+                  ><br />
+                  <span class="text-caption">{{ device.id }}</span>
+                </div>
+              </v-row>
+            </v-row>
+            <v-row justify="center" style="display: none">
+              <v-switch
+                v-model="simulateResponse"
+                label="จำลองการเขย่า"
+              ></v-switch>
+            </v-row>
+            <v-row justify="center">
+              <v-switch
+                v-model="showYellowSignal"
+                label="แสดงไฟเหลือง"
+              ></v-switch>
+            </v-row>
+            <v-row class="mt-0" justify="center" style="display: none">
+              <span class="caption shadow--text"
+                >(หากเปิดโหมดจำลองการเขย่า จะไม่สามารถบันทึกข้อมูลจริงได้)</span
+              >
+            </v-row>
+          </v-container>
+        </v-card>
       </v-card>
       <v-dialog v-model="midiLoading" persistent width="300">
         <v-card class="pa-8">
@@ -107,12 +149,12 @@
         @menu="$router.replace({ name: 'home' })"
       />
     </v-container>
-    <v-dialog v-model="isSimulatorShow" max-width="600px">
-      <v-card>
+    <!-- <v-dialog v-model="isSimulatorShow" max-width="600px"> -->
+      <!-- <v-card>
         <v-container class="pa-8">
           <v-row justify="center" class="mb-4">
-            <span class="charcoal--text text-h4 text-center"
-              >Band Simulator</span
+            <v-col class="charcoal--text text-h4 text-center"
+              >Band Simulator</v-col
             >
           </v-row>
           <v-row justify="center"> 
@@ -149,8 +191,8 @@
             >
           </v-row>
         </v-container>
-      </v-card>
-    </v-dialog>
+      </v-card> -->
+    <!-- </v-dialog> -->
   </div>
 </template>
 <script>
