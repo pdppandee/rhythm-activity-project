@@ -17,5 +17,25 @@
         "userPoolGroups": {}
       }
     }
+  },
+  "rhythmproj": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smartangklungweb-rhythmproj-145641-authRole",
+      "UnauthRoleArn": "arn:aws:iam::970130657832:role/amplify-smartangklungweb-rhythmproj-145641-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::970130657832:role/amplify-smartangklungweb-rhythmproj-145641-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-smartangklungweb-rhythmproj-145641-deployment",
+      "UnauthRoleName": "amplify-smartangklungweb-rhythmproj-145641-unauthRole",
+      "StackName": "amplify-smartangklungweb-rhythmproj-145641",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:970130657832:stack/amplify-smartangklungweb-rhythmproj-145641/189ea090-bf19-11ed-b421-02a848659f60",
+      "AmplifyAppId": "dzhb6tzabffkx"
+    },
+    "categories": {
+      "auth": {
+        "smartangklungwebf43ec700": {},
+        "userPoolGroups": {},
+        "smartangklungweb45caf949": {}
+      }
+    }
   }
 }
