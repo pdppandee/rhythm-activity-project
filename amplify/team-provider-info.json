@@ -1,20 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-smartangklungweb-dev-115909-authRole",
-      "UnauthRoleArn": "arn:aws:iam::488294325426:role/amplify-smartangklungweb-dev-115909-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::488294325426:role/amplify-smartangklungweb-dev-115909-authRole",
+      "AuthRoleName": "amplify-rhythmactpj-dev-150152-authRole",
+      "UnauthRoleArn": "arn:aws:iam::970130657832:role/amplify-rhythmactpj-dev-150152-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::970130657832:role/amplify-rhythmactpj-dev-150152-authRole",
       "Region": "ap-southeast-1",
-      "DeploymentBucketName": "amplify-smartangklungweb-dev-115909-deployment",
-      "UnauthRoleName": "amplify-smartangklungweb-dev-115909-unauthRole",
-      "StackName": "amplify-smartangklungweb-dev-115909",
-      "StackId": "arn:aws:cloudformation:ap-southeast-1:488294325426:stack/amplify-smartangklungweb-dev-115909/f90738f0-aa39-11eb-a92e-0a4f5ceee686",
-      "AmplifyAppId": "d2vq79arbkodwn"
+      "DeploymentBucketName": "amplify-rhythmactpj-dev-150152-deployment",
+      "UnauthRoleName": "amplify-rhythmactpj-dev-150152-unauthRole",
+      "StackName": "amplify-rhythmactpj-dev-150152",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:970130657832:stack/amplify-rhythmactpj-dev-150152/758dd9d0-d51a-11ed-9179-061c7894d88a",
+      "AmplifyAppId": "d39tm5a3pfnopn"
     },
     "categories": {
       "auth": {
-        "smartangklungwebf43ec700": {},
-        "userPoolGroups": {}
+        "rhythmactpjacb7a575": {}
       }
     }
   }

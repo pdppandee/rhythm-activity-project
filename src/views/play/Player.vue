@@ -35,7 +35,7 @@
           {{ trackDuration | fancyTimeFormat }}</span
         >
       </v-row>
-      <v-row>
+      <v-row >
         <midi-player
           ref="midiPlayer"
           v-if="song && song.midiUrl"
@@ -47,7 +47,7 @@
       </v-row>
       <audio ref="audios" :src="audioFile"></audio>
       <audio ref="audio" :src="audioFile"></audio>
-      <v-card  class="bottom-panel">
+      <v-card  class="bottom">
         <v-row justify="center" class="mt-8">
           <v-btn
             elevation="2"
@@ -76,19 +76,7 @@
             <v-icon large>mdi-pause</v-icon>
           </v-btn>
         </v-row>
-        <v-row align="center" class="ma-12">
-          <v-col cols="12" sm="6">
-            <v-row justify="center" class="justify-sm-start">
-              <level-selector @selected="changeLevel" />
-            </v-row>
-          </v-col>
-          <v-col cols="12" sm="6">
-            <v-row justify="center" class="justify-sm-end pt-1 pt-sm-0 ma-0">
-              <speed-selector @speed="adjustSpeed" />
-              <volume class="ml-4" @adjust="adjustVolume" />
-            </v-row>
-          </v-col>
-        </v-row>
+        <v-row justify="center"  class="mt-16" >
           <v-card>
           <v-container class="pa-8">
             <v-row justify="center" class="mb-4">
@@ -96,9 +84,9 @@
                 >Band Simulator</v-col
               >
             </v-row>
-            <v-row justify="center"> 
+            <v-row justify="center" > 
               <v-row
-                class="device-simulator ma-3"
+                class="device-simulator  ma-2"
                 :class="{ [device.color]: device.color }"
                 justify="center"
                 align="center"
@@ -118,12 +106,12 @@
                 label="จำลองการเขย่า"
               ></v-switch>
             </v-row>
-            <v-row justify="center">
+            <!-- <v-row justify="center">
               <v-switch
                 v-model="showYellowSignal"
                 label="แสดงไฟเหลือง"
               ></v-switch>
-            </v-row>
+            </v-row> -->
             <v-row class="mt-0" justify="center" style="display: none">
               <span class="caption shadow--text"
                 >(หากเปิดโหมดจำลองการเขย่า จะไม่สามารถบันทึกข้อมูลจริงได้)</span
@@ -131,6 +119,21 @@
             </v-row>
           </v-container>
         </v-card>
+        </v-row>
+        <v-row align="center" class="ma-12" >
+          <v-col cols="12" sm="6">
+            <v-row justify="center" class="justify-sm-start">
+              <level-selector @selected="changeLevel" />
+            </v-row>
+          </v-col>
+          <v-col cols="12" sm="6">
+            <v-row justify="center" class="justify-sm-end pt-1 pt-sm-0 ma-0">
+              <speed-selector @speed="adjustSpeed" />
+              <volume class="ml-4" @adjust="adjustVolume" />
+            </v-row>
+          </v-col>
+        </v-row>
+        
       </v-card>
       <v-dialog v-model="midiLoading" persistent width="300">
         <v-card class="pa-8">
@@ -526,12 +529,12 @@ export default {
 }
 
 .device-simulator {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 20%;
   color: white;
   background: #de736c;
-  max-width: 100px;
+  max-width: 80px;
   &.red {
     background: #de736c !important;
   }

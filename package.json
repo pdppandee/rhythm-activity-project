@@ -9,9 +9,10 @@
     "deploy": "firebase deploy --only hosting"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^4.3.8",
     "@aws-amplify/ui-vue": "^1.0.7",
     "@tonejs/midi": "^2.0.27",
-    "aws-amplify": "^4.3.35",
+    "aws-amplify": "^4.3.46",
     "compressorjs": "^1.0.7",
     "core-js": "^3.6.5",
     "firebase": "^8.3.1",
