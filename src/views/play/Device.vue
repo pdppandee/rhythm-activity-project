@@ -141,14 +141,14 @@
     </v-row>
     <v-row class="my-8 mx-0" justify="center">
       <v-btn large block color="primary" @click="launchPlayer()"
-        >เริ่มเล่นอังกะลุง</v-btn
+        >เริ่มเล่นกิจกรรม</v-btn
       >
     </v-row>
     <simple-dialog
       alert
       v-model="shouldShowNotReadyDevice"
       title="พบอุปกรณ์ไม่พร้อมใช้งาน"
-      message="กรุณาตรวจสอบอุปกรณ์ว่าเปิดพร้อมใช้งานและมีแบตเตอรี่เหลือเพียงพอ ก่อนเริ่มเล่นอังกะลุง"
+      message="กรุณาตรวจสอบอุปกรณ์ว่าเปิดพร้อมใช้งานและมีแบตเตอรี่เหลือเพียงพอ ก่อนเริ่มเล่นกิจกรรม"
       negativeMessage="ข้าม"
       positiveMessage="ตกลง"
       @negative="launchPlayer(true)"

@@ -3,7 +3,7 @@
     <progress-step :step="1" />
     <v-row class="my-4" justify="center">
       <h1 class="primary--text text-center px-4">
-        ขั้นตอนที่ 1: เลือกผู้ร่วมวงเล่นอังกะลุง
+        ขั้นตอนที่ 1: เลือกผู้ร่วมวงเล่นกิจกรรม
       </h1>
     </v-row>
     <v-row class="workspace">

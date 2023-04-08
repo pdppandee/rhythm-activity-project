@@ -9,7 +9,7 @@
       <v-row align="center" justify="center">
         <v-col cols="12">
           <v-row align="center" justify="center">
-            <span class="text-h5 font-weight-medium">วงดนตรีอังกะลุงอัจริยะ</span>
+            <span class="text-h5 font-weight-medium">ระบบกิจกรรมเข้าจังหวะด้วยอุปกรณ์ IoT สำหรับผู้สูงอายุ</span>
           </v-row>
           <v-row align="center" justify="center" class="pt-4 pb-8">
             <span class="text-h4" v-if="this.account">{{this.account.name}}</span>
@@ -91,7 +91,7 @@ export default {
       menu: [
         {
           icon: angklung,
-          title: "เล่นอังกะลุง",
+          title: "เล่นกิจกรรม",
           color: "grey--text text--darken-4",
           background: "secondary",
           onClick: () => this.$router.push({ name: "pickBand" }),
