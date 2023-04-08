@@ -112,11 +112,11 @@
                 label="แสดงไฟเหลือง"
               ></v-switch>
             </v-row> -->
-            <v-row class="mt-0" justify="center" style="display: none">
+            <!-- <v-row class="mt-0" justify="center" style="display: none">
               <span class="caption shadow--text"
                 >(หากเปิดโหมดจำลองการเขย่า จะไม่สามารถบันทึกข้อมูลจริงได้)</span
               >
-            </v-row>
+            </v-row> -->
           </v-container>
         </v-card>
         </v-row>
