@@ -4,7 +4,7 @@
       <progress-step :step="1" />
       <v-row class="my-4" justify="center" align="end">
         <h1 class="primary--text text-center px-4">
-          ขั้นตอนที่ 1: เลือกผู้ร่วมวงเล่นอังกะลุง
+          ขั้นตอนที่ 1: เลือกผู้ร่วมวงเล่นกิจกรรม
         </h1>
         <span class="primary--text text-h5 font-weight-regular" style="padding-bottom: 6px"
           >(สุงสุด 8 คน)</span
