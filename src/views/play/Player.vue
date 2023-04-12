@@ -35,6 +35,8 @@
           {{ trackDuration | fancyTimeFormat }}</span
         >
       </v-row>
+      
+
       <v-row >
         <midi-player
           ref="midiPlayer"
@@ -75,11 +77,10 @@
           >
             <v-icon large>mdi-pause</v-icon>
           </v-btn>
-        </v-row>
-        <v-row justify="center"  class="mt-16" >
-          <v-card>
+          <!-- <v-row justify="center"  class="mt-16" >
+          <v-card> -->
           <v-container class="pa-8">
-            <v-row justify="center" class="mb-4">
+            <v-row justify="center" class="mb-4 ma-8">
               <v-col class="charcoal--text text-h4 text-center"
                 >Band Simulator</v-col
               >
@@ -96,7 +97,7 @@
                 <div class="text-center">
                   <span>{{ device.title }}</span
                   ><br />
-                  <span class="text-caption">{{ device.id }}</span>
+                  <span class="text-caption">{{   }}</span>
                 </div>
               </v-row>
             </v-row>
@@ -118,8 +119,10 @@
               >
             </v-row> -->
           </v-container>
-        </v-card>
+          <!-- </v-card>
+        </v-row> -->
         </v-row>
+        
         <v-row align="center" class="ma-12" >
           <v-col cols="12" sm="6">
             <v-row justify="center" class="justify-sm-start">
