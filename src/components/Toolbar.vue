@@ -5,9 +5,13 @@
         <v-row class="ml-4">
           <img
             :class="iconChulaClass"
+            style="width: 20%; max-width: 100px"
             :src="require('@/assets/images/chula-logo.png')"
           />
-          <img :class="iconLogoClass" :src="require('@/assets/logo.svg')" />
+          <img 
+            :class="iconLogoClass" 
+            style="width: 50%; max-width: 100px"
+            :src="require('@/assets/logo.svg')" />
         </v-row>
       </div>
       <home-button v-if="home" class="ml-6" />

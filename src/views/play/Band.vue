@@ -42,7 +42,7 @@
                     
               </v-row> -->
 
-              <button @click="selectAllPlayers">กดที่นี่หากต้องการเลือกผู้เล่นทุกคน หรือสำหรับผู้ที่ไม่ทราบหมายเลขอุปกรณ์</button>
+              <button @click="selectAllPlayers">กดที่นี่สำหรับผู้ที่ไม่ทราบหมายเลขอุปกรณ์</button>
 
               
               <v-row

@@ -9,17 +9,17 @@
       <v-row align="center" justify="center">
         <v-col cols="12">
           <v-row align="center" justify="center">
-            <span class="text-h5 font-weight-medium">ระบบกิจกรรมเข้าจังหวะด้วยอุปกรณ์ IoT สำหรับผู้สูงอายุ</span>
+            <span class="text-h4 font-weight-bold pt-6">ระบบกิจกรรมเข้าจังหวะด้วยอุปกรณ์ IoT สำหรับผู้สูงอายุ</span>
           </v-row>
           <v-row align="center" justify="center" class="pt-4 pb-8">
-            <span class="text-h4" v-if="this.account">{{this.account.name}}</span>
+            <span class="text-h5 font-weight-light" v-if="this.account">ศูนย์ที่กำลังใช้งาน : {{this.account.name}}</span>
           </v-row>
         </v-col>
         <v-col
           cols="12"
           sm="4"
           md="3"
-          lg="2"
+          lg="3"
           v-for="(item, index) in menu"
           :key="index"
         >
